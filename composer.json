@@ -1,5 +1,5 @@
 {
-    "name": "psr/http-message",
+    "name": "lwd/http-message",
     "description": "Common interface for HTTP messages",
     "keywords": ["psr", "psr-7", "http", "http-message", "request", "response"],
     "homepage": "https://github.com/php-fig/http-message",
@@ -11,16 +11,11 @@
         }
     ],
     "require": {
-        "php": "^7.2 || ^8.0"
+        "php": "^5.5
     },
     "autoload": {
         "psr-4": {
-            "Psr\\Http\\Message\\": "src/"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.0.x-dev"
+            "Lwd\\Http\\Message\\": "src/"
         }
     }
 }
